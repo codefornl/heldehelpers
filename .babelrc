@@ -16,5 +16,5 @@
       }
     ]
   ],
-  "plugins": [ "inline-react-svg" ]
+  "plugins": []
 }
