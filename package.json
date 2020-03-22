@@ -19,7 +19,6 @@
     "styled-jsx-plugin-postcss": "^2.0.1",
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
-    "tailwindcss": "^1.2.0",
-    "babel-plugin-inline-react-svg": "^1.0.1"
+    "tailwindcss": "^1.2.0"
   }
 }
