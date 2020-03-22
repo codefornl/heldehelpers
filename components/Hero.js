@@ -35,13 +35,13 @@ const Hero = (props) => {
                         </p>
                         <div className="flex flex-wrap mt-2">
                             <a
-                                href="https://slack-redir.net/link?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScEK83SlUdbTdw6SYqiqRXlLMLbSas3_MYBZqffElVSiPwISQ%2Fviewform">
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScEK83SlUdbTdw6SYqiqRXlLMLbSas3_MYBZqffElVSiPwISQ/viewform">
                                 <div className="button button-cta">
                                         <span
                                             className="button--text">Voeg een initiatief toe</span>
                                 </div>
                             </a>
-                            <a href="https://codefornl.slack.com">
+                            <a href="https://doemee.codefor.nl">
                                 <div className="button button-cta">
                                         <span
                                             className="button--text">Join de CodeForNL Slack</span>
