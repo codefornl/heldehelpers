@@ -62,7 +62,7 @@ const Hero = (props) => {
 
             <style jsx>{`
                   .hero{
-                    @apply top-0 left-0 bg-secondary min-h-full;
+                    @apply top-0 left-0 bg-secondary min-h-full flex flex-1 self-stretch;
                   }
                   .hero--container{
                     @apply flex flex-1 flex-row flex-wrap-reverse justify-end pt-10 h-full
