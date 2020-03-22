@@ -15,19 +15,21 @@ export default (props) => {
                 <title>{props.title}</title>
                 <meta name="title" content={props.title}/>
                 <meta name="description"
-                      content={""}/>
+                      content={"Help mee om alle initiatieven rondom COVID-19 in kaart te brengen!"}/>
 
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://helpdehelpers.nl/"/>
                 <meta property="og:title" content={props.title}/>
                 <meta property="og:description"
-                      content={""}/>
+                      content={"Help mee om alle initiatieven rondom COVID-19 in kaart te brengen!"}/>
+                <meta property="og:image" content="https://helpdehelpers.nl/assets/images/metatag.png"/>
 
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content="https://helpdehelpers.nl/"/>
                 <meta property="twitter:title" content={props.title}/>
                 <meta property="twitter:description"
-                      content={""}/>
+                      content={"Help mee om alle initiatieven rondom COVID-19 in kaart te brengen!"}/>
+                <meta property="twitter:image" content="https://helpdehelpers.nl/assets/images/metatag.jpg"/>
             </Head>
             {props.children}
         </div>
