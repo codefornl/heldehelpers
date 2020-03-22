@@ -6,10 +6,12 @@ import Layout from "../components/Layout";
 const Home = (props) => {
     return (<Layout locale={props.locale} title="#HelpDeHelpers">
             <main>
-                <Header locale={props.locale}/>
-                <section id="hero">
-                    <Hero locale={props.locale}/>
-                </section>
+                <div className="min-h-screen flex flex-1 flex-col">
+                    <Header locale={props.locale}/>
+                    <section id="hero" className="flex flex-1 self-stretch">
+                        <Hero locale={props.locale}/>
+                    </section>
+                </div>
             </main>
         </Layout>
     )

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = (props) => {
     return (
-        <div className="fixed top-0 pr-3 md:pr-10 lg:pr-10 xl:pr-10 bg-primary shadow-lg w-full shadow-">
+        <div className="pr-3 md:pr-10 lg:pr-10 xl:pr-10 bg-primary shadow-lg w-full flex">
             <div className="flex flex-row">
                 <Link href={'#'}>
                     <a>

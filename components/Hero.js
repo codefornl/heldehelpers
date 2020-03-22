@@ -13,25 +13,27 @@ const Hero = (props) => {
                         </h1>
                         <p className="hero--text">
                             <br/>
-                            Het is ongelooflijk om te zien hoeveel initiatieven er genomen worden om hulp te bieden
-                            tijdens deze pandemie. Zó veel, dat het nu al moeilijk wordt om je weg te vinden hierin.
-                            Daarom willen we graag alle initiatieven in Nederland inventariseren, zodat we de hulpvragen
-                            en hulp aanbiedingen beter kunnen matchen. Het doel is dus:
+                            Het is ongelooflijk om te zien hoeveel initiatieven er worden genomen om hulp te bieden
+                            tijdens deze pandemie. Zó veel, dat het nu al moeilijk wordt om je weg hierin te vinden.
+                            Daarom willen we zo veel mogelijk initiatieven in Nederland inventariseren, zodat we de
+                            hulpvragen en hulp aanbiedingen beter kunnen matchen. Het doel is dus:
                             <br/><br/>
                             <ul>
-                                <li>1. Alle initiatieven in kaart te brengen en deze te organiseren.</li>
-                                <li>2. Met andere initiatieven in contact komen om elkaar te kunnen helpen.</li>
+                                <li>1. Zo veel mogelijk initiatieven in kaart te brengen en deze te organiseren.</li>
+                                <li>2. Met andere initiatieven in contact komen om elkaar te kunnen helpen en
+                                    versterken.
+                                </li>
                             </ul>
                             <br/>
-                            Het verzoek aan jou; Deel dit formulier, zo veel en snel als je kan.
+                            Start met helpen door dit formulier zo snel en zo veel mogelijk te delen!
                             De waarde van deze lijst neemt toe met elke deling en extra invulling die deze krijgt. Start
                             met helpen door deze te delen!
                             Ken je een hulp initiatief voor hulpbiedingen, kaartjes naar oma’s & opa’s, boodschappen
                             doen voor de verpleegster uit je buurt, online yoga, online bijles of een andere vorm van
-                            hulporganisatie?… Vul het formulier in, zo goed je kan! Dan gaan wij er samen voor zorgen
-                            dat we de hulp zo goed organiseren als we kunnen, vanuit Code for NL, in samenwerking met
-                            jullie allemaal.
-                            Wil je hier zelf ook bij betrokken worden? doemee.codefor.nl
+                            hulporganisatie?… Vul het formulier zo goed als mogelijk in. Dan gaan wij er samen voor
+                            zorgen dat we de hulp zo goed organiseren als we kunnen, vanuit Code for NL, in samenwerking
+                            met jullie allemaal.
+                            Wil je meehelpen met Code for NL? <a href="https://doemee.codefor.nl">doemee.codefor.nl</a>
                         </p>
                         <div className="flex flex-wrap mt-2">
                             <a
@@ -60,10 +62,10 @@ const Hero = (props) => {
 
             <style jsx>{`
                   .hero{
-                    @apply top-0 left-0 w-screen bg-secondary;
+                    @apply top-0 left-0 bg-secondary min-h-full;
                   }
                   .hero--container{
-                    @apply flex flex-1 flex-row flex-wrap-reverse justify-end pt-20 min-h-screen
+                    @apply flex flex-1 flex-row flex-wrap-reverse justify-end pt-10 h-full
                   }
                   .hero--content {
                     @apply flex pl-12 pr-2 flex-1 self-center mb-10 min-w-20
@@ -86,20 +88,17 @@ const Hero = (props) => {
                     box-shadow: 0 0 9px 2px hsla(0, 0%, 0%, 0),0 6px 18px 2px rgba(0, 0, 0, 0.1);;
                   }
                   .button--text{
-                    @apply self-center text-gray-800 font-sans font-hairline 
+                    @apply self-center text-gray-800 font-sans font-hairline
                   }
                   @screen md {
                        .hero--heading {
                         @apply text-4xl
                       }
-                      .hero{
-                        @apply h-screen
-                      }
                       .hero--text {
                         @apply text-lg
                       }
                        .hero--content {
-                        @apply min-h-screen mb-0
+                        @apply mb-0
                       }
                       .hero--container{
                           @apply mt-0 pt-0
@@ -109,9 +108,6 @@ const Hero = (props) => {
                       .hero--heading {
                         @apply text-5xl
                       }
-                      .hero{
-                        @apply h-screen
-                      }
                       .hero--text {
                         @apply text-lg
                       }
@@ -119,7 +115,7 @@ const Hero = (props) => {
                         @apply text-2xl
                       }
                       .hero--content {
-                        @apply min-h-screen mb-0
+                        @apply  mb-0
                       }
                       .hero--container{
                           @apply mt-0 pt-0
@@ -129,9 +125,6 @@ const Hero = (props) => {
                       .hero--heading {
                         @apply text-5xl
                       }
-                      .hero{
-                        @apply h-screen
-                      }
                       .hero--text {
                         @apply text-lg
                       }
@@ -139,7 +132,7 @@ const Hero = (props) => {
                         @apply text-2xl
                       }
                       .hero--content {
-                        @apply min-h-screen mb-0
+                        @apply mb-0
                       }
                       .hero--container{
                           @apply mt-0 pt-0
