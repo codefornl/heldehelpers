@@ -29,7 +29,7 @@ export default (props) => {
                 <meta property="twitter:title" content={props.title}/>
                 <meta property="twitter:description"
                       content={"Help mee om alle initiatieven rondom COVID-19 in kaart te brengen!"}/>
-                <meta property="twitter:image" content="https://helpdehelpers.nl/assets/images/metatag.jpg"/>
+                <meta property="twitter:image" content="https://helpdehelpers.nl/assets/images/metatag.png"/>
             </Head>
             {props.children}
         </div>
