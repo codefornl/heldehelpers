@@ -12,11 +12,17 @@ const Hero = (props) => {
                             Help de helpers!
                         </h1>
                         <p className="hero--text">
+                            Help de helpers is een initiatief om mensen, organisaties en andere initiatieven te
+                            verbinden en te ondersteunen, zodat we elkaar nóg beter kunnen helpen.
+                            <br/>
+                            <br/>
+                            Voeg hieronder een iniatief toe die baat heeft bij betere samenwerking!
+                            <br/>
                             <br/>
                             Het is ongelooflijk om te zien hoeveel initiatieven er worden genomen om hulp te bieden
                             tijdens deze pandemie. Zó veel, dat het nu al moeilijk wordt om je weg hierin te vinden.
                             Daarom willen we zo veel mogelijk initiatieven in Nederland inventariseren, zodat we de
-                            hulpvragen en hulp aanbiedingen beter kunnen matchen. Het doel is dus:
+                            hulpvragen en hulp aanbiedingen beter kunnen matchen. Ons doel is:
                             <br/><br/>
                             <ul>
                                 <li>1. Zo veel mogelijk initiatieven in kaart te brengen en deze te organiseren.</li>
@@ -25,15 +31,11 @@ const Hero = (props) => {
                                 </li>
                             </ul>
                             <br/>
-                            Start met helpen door dit formulier zo snel en zo veel mogelijk te delen!
-                            De waarde van deze lijst neemt toe met elke deling en extra invulling die deze krijgt. Start
-                            met helpen door deze te delen!
-                            Ken je een hulp initiatief voor hulpbiedingen, kaartjes naar oma’s & opa’s, boodschappen
-                            doen voor de verpleegster uit je buurt, online yoga, online bijles of een andere vorm van
-                            hulporganisatie?… Vul het formulier zo goed als mogelijk in. Dan gaan wij er samen voor
-                            zorgen dat we de hulp zo goed organiseren als we kunnen, vanuit Code for NL, in samenwerking
-                            met jullie allemaal.
-                            Wil je meehelpen met Code for NL? <a href="https://doemee.codefor.nl">doemee.codefor.nl</a>
+                            Start met helpen door #HelpDeHelpers zo snel en zo veel mogelijk te delen!
+                            Ken je een hulp initiatief voor boodschappen, bijles of een andere vorm van hulp
+                            organisatie? Voeg een initiatief toe. Samen zorgen we ervoor dat we alle hulp zo
+                            goed mogelijk kunnen organizeren, vanuit Code for NL, in samenwerking met jullie allemaal.
+                            Wil je meehelpen met Code for NL? <a className="link" href="https://doemee.codefor.nl">doemee.codefor.nl</a>
                         </p>
                         <div className="flex flex-wrap mt-2">
                             <a
@@ -61,6 +63,9 @@ const Hero = (props) => {
             </div>
 
             <style jsx>{`
+                  .link {
+                       @apply underline
+                    }
                   .hero{
                     @apply top-0 left-0 bg-secondary min-h-full flex flex-1 self-stretch;
                   }
